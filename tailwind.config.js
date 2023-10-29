@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens: {
+      'mobile' : {'max' : '680px' },
+      'tablet' : {'min' : '680px' , 'max' : '1024px'},
+      'desktop' : {'min' : '1024px'},
+    },
   },
   plugins: [
     require("tw-elements/dist/plugin.cjs"),
