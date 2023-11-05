@@ -5,35 +5,48 @@
 
 <!-- Footer -->
 <div class="bg-[#FFB68B] -mt-8 px-4 w-full md:px-12">
-  <div>
+  <div class="flex flex-row justify-start">
     <!-- Help Center -->
     <div>
-      <h4 class="text-[#321300] text-[25px] font-bold md:text-[39px] lg:text-xl">Help Center</h4>
-      <ul class="text-[#873D00] font-normal text-[22px] pt-10 pb-6 space-y-6 border-b-[1px] border-solid border-[#E79F74] md:text-4xl md:space-y-10 md:pt-12 md:pb-10 lg:text-lg lg:space-y-4 lg:border-none">
-        <li class="hover:font-bold cursor-pointer">Order Stage</li>
-        <li class="hover:font-bold cursor-pointer">Retruns</li>
-        <li class="hover:font-bold cursor-pointer">Payment Methods</li>
-        <li class="hover:font-bold cursor-pointer">Shipments</li>
-      </ul>
-      <ul class="text-[#873D00] font-normal text-[22px] pt-6 pb-16 space-y-6 md:text-4xl md:pt-10 md:space-y-10 md:pb-28 lg:text-lg lg:space-y-4">
-        <li class="hover:font-bold cursor-pointer">Frequently Asked Questions (FAQS)</li>
-        <li class="hover:font-bold cursor-pointer">Contuct Us</li>
-      </ul>
+      <h4 class="text-[#321300] text-[25px] font-bold md:text-[39px] lg:text-xl">Useful Links</h4>
     </div>
+  </div>
+</div>
 
-    <!-- About us -->
-    <div class="w-full bg-[#FFCEB1] rounded-xl p-3 md:p-10 lg:p-4">
-      <div class="flex justify-start items-center gap-1 w-full">
-        <app-about-logo></app-about-logo>
-        <p class="text-[#994700] font-bold text-lg md:text-3xl lg:text-xl">8pus.shop</p>
+<!-- Footer -->
+<div class="bg-[#FFB68B] -mt-8 px-4 w-full md:px-12">
+  <div>
+    <!-- Help Center -->
+    <div class="lg:flex lg:justify-center lg:gap-16">
+      <div class="lg:flex lg:justify-center">
+        <h4 class="text-[#321300] text-[25px] font-bold md:text-[39px] lg:text-xl">Help Center</h4>
+        <ul class="text-[#873D00] font-normal text-[22px] pt-10 pb-6 space-y-6 border-b-[1px] border-solid border-[#E79F74] md:text-4xl md:space-y-10 md:pt-12 md:pb-10 lg:text-lg lg:space-y-4 lg:border-none">
+          <li class="hover:font-bold cursor-pointer">Order Stage</li>
+          <li class="hover:font-bold cursor-pointer">Retruns</li>
+          <li class="hover:font-bold cursor-pointer">Payment Methods</li>
+          <li class="hover:font-bold cursor-pointer">Shipments</li>
+        </ul>
+        <ul class="text-[#873D00] font-normal text-[22px] pt-6 pb-16 space-y-6 md:text-4xl md:pt-10 md:space-y-10 md:pb-28 lg:text-lg lg:space-y-4">
+          <li class="hover:font-bold cursor-pointer">Frequently Asked Questions (FAQS)</li>
+          <li class="hover:font-bold cursor-pointer">Contuct Us</li>
+        </ul>
       </div>
-      <div class="pt-3 pb-4 text-xs text-[#994700] md:text-2xl md:pt-6 md:pb-7 lg:text-sm">
-        <p>8pus.shop is a new store that aims to bring together all the products a home needs, from supermarket items, to spare parts for your car and anything else you can imagine.</p>
-      </div>
-      <div class="text-[#994700] text-sm font-bold md:text-2xl lg:text-base">
-        <p>Learn about us</p>
+  
+      <!-- About us -->
+      <div class="w-full bg-[#FFCEB1] rounded-xl p-3 md:p-10 lg:p-4">
+        <div class="flex justify-start items-center gap-1 w-full">
+          <app-about-logo></app-about-logo>
+          <p class="text-[#994700] font-bold text-lg md:text-3xl lg:text-xl">8pus.shop</p>
+        </div>
+        <div class="pt-3 pb-4 text-xs text-[#994700] md:text-2xl md:pt-6 md:pb-7 lg:text-sm">
+          <p>8pus.shop is a new store that aims to bring together all the products a home needs, from supermarket items, to spare parts for your car and anything else you can imagine.</p>
+        </div>
+        <div class="text-[#994700] text-sm font-bold md:text-2xl lg:text-base">
+          <p>Learn about us</p>
+        </div>
       </div>
     </div>
+    
 
     <!-- Social -->
     <div class="pt-16 pb-12 w-full flex justify-center items-center gap-6 md:pt-23 md:pb-19 md:gap-9 lg:gap-6">
@@ -59,8 +72,8 @@
     </div>
 
     <!-- Terms - Desktop -->
-    <div>
-      <ul class="lg:flex lg:items-center lg:text-[#994700] lg:text-sm lg:pt-6 lg:gap-6">
+    <div class="w-full">
+      <ul class="hidden lg:flex justify-end items-center text-[#994700] text-sm pt-6 gap-6">
         <li class="cursor-pointer">Terms Of Use</li>
         <li class="cursor-pointer">GDPR</li>
         <li class="cursor-pointer">Cookies</li>
